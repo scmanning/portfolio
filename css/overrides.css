@@ -53,3 +53,8 @@
     width: 72px;
     height: 72px;
 }
+
+.contact-header-image {
+    background-image: url('../xxassets/img/pexels-alscre-2847648.jpg');
+    background-size: cover;
+}
