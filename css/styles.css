@@ -1,11 +1,4 @@
 :root {
-    /* color palette exported from https://coolors.co/31393c-2176ff-33a1fd-fdca40-f79824 */
-    --gunmetal: #31393cff;
-    --blue-crayola: #2176ffff;
-    --celestial-blue: #33a1fdff;
-    --sunglow: #fdca40ff;
-    --carrot-orange: #f79824ff;
-
     /* color palette exported from https://coolors.co/068d9d-53599a-6d9dc5-80ded9-aeecef */
     --blue-munsell: #068d9dff;
     --ultra-violet: #53599aff;
@@ -14,7 +7,7 @@
     --celeste: #aeecefff;
 
     /* override bootstrap defaults to match our portfolio styling */
-    --bs-body-bg: var(--tiffany-blue);
+    --bs-body-bg: var(--celeste);
     --bs-body-color: var(--ultra-violet);
     --bs-link-color: var(--tiffany-blue);
     --bs-body-font-family: 'Roboto', sans-serif;
@@ -23,7 +16,7 @@
 /* override theme values in css classes as necessary */
 .btn-primary {
     --bs-btn-color: var(--tiffany-blue);
-    --bs-btn-bg: var(--celestial-blue);
+    --bs-btn-bg: var(--ultra-violet);
 }
 
 .modal {
@@ -65,3 +58,24 @@
     background-image: url('../xxassets/img/pexels-alscre-2847648.jpg');
     background-size: cover;
 }
+
+
+footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  footer.footer .social-link {
+    display: block;
+    text-decoration: none;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  footer.footer .social-link:hover {
+    background-color: #155d74;
+    text-decoration: none;
+  }
