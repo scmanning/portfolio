@@ -13,7 +13,8 @@
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|3d-float" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|3d-float"
+        rel="stylesheet" type="text/css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -46,38 +47,16 @@
     <section class="content-section" id="portfolio">
         <div class="container px-4 px-lg-5">
             <div class="content-section-heading text-center">
-                <!-- <h3 class="text-secondary mb-0">
-                    Portfolio
-                    <br>
-                    <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                        data-bs-target="#carouselModal">
-                        View all images as carousel
-                    </button>
-                </h3> -->
-                <h2 class="mb-5">
-                    Design Services
-                    <br>
-                    <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                        data-bs-target="#carouselModal">
-                        View all images as carousel
-                    </button>
+                <h2>
+                    Graphic Design Services
                 </h2>
+                <h5>click on each image to view at full resolution with a description</h5>
             </div>
-            <div class="row gx-0">
-                <div class="col-lg-6">
+            <!-- use 1 column on small/mobile, bump up to 2 columns on large (992px) or wider -->
+            <!-- also, default gutter is good, but default vertical padding of 0 looks crowded so bump to 3 -->
+            <div class="row row-cols-1 row-cols-lg-2 gy-3">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Stationary</div> -->
-                                <!-- <p class="mb-0">Band festival poster for Greensky bluegrass made with found objects</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal1">
-                                    View full-size image
-                                </button>
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-FoundPoster-1000w.jpg" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-FoundPoster-1000w.jpg 1000w,
@@ -86,20 +65,8 @@
                             alt="Band festival poster for Greensky bluegrass made with found objects">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Ice Cream</div> -->
-                                <!-- <p class="mb-0">Background image for wedding invitation project</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal2">
-                                    View full-size image
-                                </button>
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-Invitation-1000w.png" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-Invitation-1000w.png 1000w,
@@ -108,19 +75,8 @@
                             alt="Background image for wedding invitation project">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Strawberries</div> -->
-                                <!-- <p class="mb-0">Background image #1 for wedding RSVP</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal3">
-                                    View full-size image
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-SaveTheDate-1000w.png" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-SaveTheDate-1000w.png 1000w,
@@ -129,19 +85,8 @@
                             alt="Background image #1 for wedding RSVP">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Workspace</div> -->
-                                <!-- <p class="mb-0">Background image #2 for wedding RSVP</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal4">
-                                    View full-size image
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-RSVP-1000w.png" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-RSVP-1000w.png 1000w,
@@ -150,19 +95,8 @@
                             alt="Background image #2 for wedding RSVP">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Strawberries</div> -->
-                                <!-- <p class="mb-0">Poster illustration for North Carolina Dog Festival</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal5">
-                                    View full-size image
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-travel-1000w.jpg" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-travel-1000w.png 1000w,
@@ -171,19 +105,8 @@
                             alt="Poster illustration for North Carolina Dog Festival">
                     </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col">
                     <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <div class="h2">Workspace</div> -->
-                                <!-- <p class="mb-0">Instagram illustration for North Carolina Dog Festival</p> -->
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary view-full-image" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal6">
-                                    View full-size image
-                            </div>
-                        </div>
-                        <!-- <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." /> -->
                         <img class="img-fluid" src="assets/img/portfolio/Manning-travelpost-1000w.jpg" sizes="(max-width: 800px) 600px,
                             (max-width: 1000px) 800px,
                             1000px" srcset="assets/img/portfolio/Manning-travelpost-1000w.jpg 1000w,
@@ -204,8 +127,8 @@
                         href="https://facebook.com/"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" target="_blank"
-                        href="https://twitter.com/"><i class="icon-social-twitter"></i></a>
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/"><i
+                            class="icon-social-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
                     <a class="social-link rounded-circle text-white" target="_blank"
@@ -216,7 +139,8 @@
         </div>
     </footer>
     <!-- Modals, placed outside of other DOM elements per https://getbootstrap.com/docs/5.3/components/modal/ -->
-    <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModalLabel1" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModalLabel1"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -235,7 +159,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModalLabel2" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModalLabel2"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -254,7 +179,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModalLabel3" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModalLabel3"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -273,7 +199,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModalLabel4" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModalLabel4"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -292,7 +219,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModalLabel5" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModalLabel5"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -311,7 +239,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModalLabel6" aria-hidden="true">
+    <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModalLabel6"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
@@ -347,33 +276,23 @@
                     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img
-                                    class="d-block w-100"
-                                    src="assets/img/portfolio/Manning-FoundPoster.jpg"
+                                <img class="d-block w-100" src="assets/img/portfolio/Manning-FoundPoster.jpg"
                                     alt="Band festival poster for Greensky bluegrass made with found objects">
                             </div>
                             <div class="carousel-item">
-                                <img
-                                    class="d-block w-100"
-                                    src="assets/img/portfolio/Manning-Invitation.png"
+                                <img class="d-block w-100" src="assets/img/portfolio/Manning-Invitation.png"
                                     alt="Background image for wedding invitation project">
                             </div>
                             <div class="carousel-item">
-                                <img
-                                    class="d-block w-100"
-                                    src="assets/img/portfolio/Manning-SaveTheDate.jpg"
+                                <img class="d-block w-100" src="assets/img/portfolio/Manning-SaveTheDate.jpg"
                                     alt="Background image #1 for wedding RSVP">
                             </div>
                             <div class="carousel-item">
-                                <img
-                                    class="d-block w-100"
-                                    src="assets/img/portfolio/Manning-RSVP.jpg"
+                                <img class="d-block w-100" src="assets/img/portfolio/Manning-RSVP.jpg"
                                     alt="Background image #2 for wedding RSVP">
                             </div>
                             <div class="carousel-item">
-                                <img
-                                    class="d-block w-100"
-                                    src="assets/img/portfolio/Manning-travel.png"
+                                <img class="d-block w-100" src="assets/img/portfolio/Manning-travel.png"
                                     alt="Poster illustration for North Carolina Dog Festival">
                             </div>
                         </div>

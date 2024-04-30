@@ -13,7 +13,8 @@
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|3d-float" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple|3d-float"
+        rel="stylesheet" type="text/css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -23,20 +24,110 @@
 
 <body id="page-top">
     <!-- Navigation-->
-    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="index.html#page-top">Sarah Manning</a></li>
-            <li class="sidebar-nav-item"><a href="index.html">Home</a></li>
-            <li class="sidebar-nav-item"><a href="about.html">About</a></li>
-            <li class="sidebar-nav-item"><a href="graphic-design-services.html">Design Services</a></li>
-            <li class="sidebar-nav-item"><a href="branding-experience.html">Branding Experience</a></li>
-            <li class="sidebar-nav-item"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <header>
-        <p>I live in Raleigh, NC with my dog Mocha. We enjoy going for walks and visiting the local dog park.</p>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html#page-top"><img
+                        src="assets/img/Manning-Design-Studio-Icon-227x210.png" style="max-height: 80px;"></a>
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="graphic-design-services.html">Graphic Design Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="web-design-services.html">Web Design Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <h2 class="text-center">About me</h2>
+    <p class="text-center lead">I live in <a href="https://raleighnc.gov/">Raleigh, NC</a> with my rescue dog Mocha. We enjoy going for walks and visiting the
+        local dog park. She's
+        also my favorite model for photography!</p>
+    <p class="text-center">I attend <a href="https://www.waketech.edu/">Wake Tech</a> in the <a
+            href="https://www.waketech.edu/programs-courses/credit/graphic-design">Graphic Design</a> program.</p>
+    <main>
+        <div class="container px-4 px-lg-5">
+            <!-- use 1 column on small/mobile, bump up to 2 columns on large (992px) or wider -->
+            <!-- also, default gutter is good, but default vertical padding of 0 looks crowded so bump to 3 -->
+            <div class="row row-cols-1 row-cols-lg-2 gy-3">
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <img class="img-fluid" src="assets/img/Mocha1-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha1-1000w.jpg 1000w,
+                              assets/img/Mocha1-800w.jpg 800w,
+                              assets/img/Mocha1-600w.jpg 600w" alt="Photo #1 of my dog Mocha">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <img class="img-fluid" src="assets/img/Mocha2-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha2-1000w.jpg 1000w,
+                              assets/img/Mocha2-800w.jpg 800w,
+                              assets/img/Mocha2-600w.jpg 600w" alt="Photo #2 of my dog Mocha">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <img class="img-fluid" src="assets/img/Mocha3-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha3-1000w.jpg 1000w,
+                              assets/img/Mocha3-800w.jpg 800w,
+                              assets/img/Mocha3-600w.jpg 600w" alt="Photo #3 of my dog Mocha">
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <img class="img-fluid" src="assets/img/Mocha4-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha4-1000w.jpg 1000w,
+                              assets/img/Mocha4-800w.jpg 800w,
+                              assets/img/Mocha4-600w.jpg 600w" alt="Photo #4 of my dog Mocha">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <img class="img-fluid" src="assets/img/Mocha5-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha5-1000w.jpg 1000w,
+                              assets/img/Mocha5-800w.jpg 800w,
+                              assets/img/Mocha5-600w.jpg 600w" alt="Photo #5 of my dog Mocha">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <img class="img-fluid" src="assets/img/Mocha6-1000w.jpg" sizes="(max-width: 800px) 600px,
+                            (max-width: 1000px) 800px,
+                            1000px" srcset="assets/img/Mocha6-1000w.jpg 1000w,
+                              assets/img/Mocha6-800w.jpg 800w,
+                              assets/img/Mocha6-600w.jpg 600w" alt="Photo #6 of my dog Mocha">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </main>
 
     <!-- Footer-->
     <footer class="footer text-center">
@@ -47,8 +138,8 @@
                         href="https://facebook.com/"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" target="_blank"
-                        href="https://twitter.com/"><i class="icon-social-twitter"></i></a>
+                    <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/"><i
+                            class="icon-social-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
                     <a class="social-link rounded-circle text-white" target="_blank"
